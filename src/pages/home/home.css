@@ -140,7 +140,9 @@
 .home__box {
   text-align: center;
   background: #c5a491;
+  width: 100%;
   padding: 2.5rem 2rem;
+  
 }
 .home__box .home__svg {
   background: #eaded7;
