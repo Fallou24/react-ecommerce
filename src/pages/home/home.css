@@ -135,6 +135,7 @@
   text-align: justify;
 }
 .company__desc {
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .home__box {
@@ -193,11 +194,15 @@
     flex: 1;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .home__desc {
     text-align: justify;
   }
   .company__desc{
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .home__box{
+   width: 100%; 
   }
 }
