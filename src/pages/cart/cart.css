@@ -124,10 +124,14 @@
 
 
 
-@media screen and (max-width:432px) {
+@media screen and (max-width:480px) {
   .cart__product-info{
     flex-wrap: wrap;
     row-gap: .3rem;
+    justify-content: space-between;
+  }
+  .cart__product-info>*{
+    flex: 0;
   }
  .productNameWrapper{
   width: 100%;
